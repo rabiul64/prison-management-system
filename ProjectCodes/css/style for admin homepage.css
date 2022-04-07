@@ -1,0 +1,57 @@
+﻿body{
+  background:radial-gradient(#c0c0c0,#ffffff)no-repeat center fixed;
+  margin:0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+  color:#cc6600;
+  font-weight:500;
+}
+nav{
+  position: absolute;
+  background:linear-gradient(#204d74,#1b6d85);
+  width:100%;
+}
+
+nav ul{
+  width:80%;
+  margin:0 auto;
+}
+nav ul li{
+  display:inline-block;
+  padding:1%;
+}
+nav ul li a{
+  color:white;
+  font-size:1em;
+  text-decoration:none;
+  padding:5px;
+}
+nav ul li a:hover{
+  cursor:pointer;
+  color: #c0c0c0;
+}
+
+nav ul li:hover{background: radial-gradient(#314A87,#286090)}
+#main-content{
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #080808;
+  min-height:200px;
+  background-color:white;
+  padding:3%;
+}
+
+#main-content ul{list-style: none}
+#main-content ul li a{text-decoration: none;color: #080808}
+#main-content ul li a:hover{color: #286090}
+input[type="submit"]{
+  width: 200px;
+  padding: 3px;
+  font-size: 1.2em;
+  background-color: grey;
+  border-radius: 10px;
+}
+input[type="submit"]:hover{
+  cursor:pointer;
+  background-color: white;
+}
